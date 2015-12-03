@@ -19,7 +19,7 @@ Gem::Specification.new do |s|
   s.requirements << "none"
 
   s.add_dependency "solidus_core", [">= 1.1.0.pre", "< 1.2.0"]
-
+  s.add_dependency 'openpayu', '~> 0.1.2'
   s.add_development_dependency "braintree", "~> 2.0"
   s.add_development_dependency "rspec-rails", "~> 3.2"
   s.add_development_dependency "simplecov"
